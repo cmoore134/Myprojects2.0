@@ -1,0 +1,21 @@
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.expiration-card {
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  width: 180px;
+  border-left: 6px solid;
+  background-color: var(--color-cream);
+}
+
+.expiration-card.expired {
+  border-left-color: #d32f2f; 
+}
+
+.expiration-card.expiring-soon {
+  border-left-color: var(--color-caramel);
+}
