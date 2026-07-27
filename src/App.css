@@ -1,0 +1,39 @@
+.header {
+  background-color: #432f15;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidenav {
+  width: 200px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+}
+
+.sidenav a {
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.sidenav a:first-child {
+  padding-top: 10px;
+}
+
+.sidenav a:hover {
+  background-color: #ddd;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
