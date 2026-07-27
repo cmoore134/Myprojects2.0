@@ -1,0 +1,25 @@
+.dashboard-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  background-color: var(--color-milk-foam);
+}
+
+.dashboard-widget {
+  background-color: var(--color-cream);
+  border-radius: 10px;
+  padding: 16px;
+  min-width: 100px;
+}
+
+.dashboard-widget h3 {
+  color: var(--color-espresso);
+  margin-bottom: 12px;
+}
+
+.dashboard-cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
