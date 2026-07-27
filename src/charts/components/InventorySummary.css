@@ -1,0 +1,25 @@
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inventory-summary-card {
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  width: 180px;
+  text-align: center;
+  border-left: 6px solid var(--color-coffee);
+  background-color: #fff3cd;
+}
+
+.inventory-summary-card h4 {
+  color: var(--color-espresso);
+  margin-bottom: 8px;
+}
+
+.inventory-summary-card p {
+  color: var(--color-coffee);
+  font-size: 28px;
+  font-weight: bold;
+}
