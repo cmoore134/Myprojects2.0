@@ -1,0 +1,80 @@
+:root {
+  --color-espresso: #3C2415;   /* dark backgrounds, headers */
+  --color-coffee: #6F4E37;     /* primary accent, buttons */
+  --color-caramel: #C68E4C;    /* secondary accent, hover states */
+  --color-cream: #F5E6CA;      /* card backgrounds */
+  --color-milk-foam: #FFF8F0;  /* page background */
+}
+
+body {
+  background-color: var(--color-milk-foam);
+  color: var(--color-espresso);
+}
+
+/* ── Shared add-button & form styles ───────────────────── */
+.add-btn {
+  margin: 10px 0;
+  padding: 8px 16px;
+  background-color: var(--color-coffee);
+  color: var(--color-milk-foam);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.add-btn:hover { background-color: var(--color-espresso); }
+.add-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.add-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  background-color: var(--color-cream);
+  border: 1px solid var(--color-caramel);
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}
+.add-form input,
+.add-form select {
+  padding: 6px 10px;
+  border: 1px solid var(--color-caramel);
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: var(--color-milk-foam);
+  color: var(--color-espresso);
+}
+.form-error {
+  color: #c0392b;
+  font-size: 13px;
+  width: 100%;
+}
+
+/* ── Delete button styles ──────────────────────────────── */
+.delete-btn {
+  padding: 4px 8px;
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background-color: #a93226;
+}
+
+/* ── Resolve button styles ──────────────────────────────── */
+.resolve-btn {
+  padding: 4px 8px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.resolve-btn:hover {
+  background-color: #229954;
+}
