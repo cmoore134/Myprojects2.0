@@ -1,0 +1,36 @@
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-summary-card {
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  width: 180px;
+  text-align: center;
+  border-left: 6px solid var(--color-caramel);
+  background-color: #fff3cd; 
+}
+
+.services-summary-card h4 {
+  color: var(--color-espresso);
+  margin-bottom: 8px;
+}
+
+.services-summary-card p {
+  color: var(--color-coffee);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.services-history-charts {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--color-milk-foam);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+}
